@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <!--match_parent: 부모에 맞춤 wrap_content:component크기만큼-->
+    <!--layout_gravity: layout의 위치, gravity: layout속 component의 위치 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Hello World!"
+        android:textColor="@android:color/holo_green_dark"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
