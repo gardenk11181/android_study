@@ -31,6 +31,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp">
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/TextInputEditText_email"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:hint="Email"/>
@@ -41,12 +42,14 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp">
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/TextInputEditText_password"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:hint="PassWord"/>
     </com.google.android.material.textfield.TextInputLayout>
 
     <RelativeLayout
+        android:id="@+id/RelativeLayout_login"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:paddingLeft="12dp"
@@ -60,7 +63,8 @@
             android:background="@null"
             android:src="@drawable/icon_profile"
             android:gravity="center"
-            android:layout_centerVertical="true"/>
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -96,9 +100,12 @@
         <ImageView
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:background="@null"
             android:src="@drawable/icon_face"
-            android:layout_centerVertical="true"/>
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:background="#ffffff"
+            android:padding="1dp"
+            />
 
     </RelativeLayout>
 
