@@ -8,8 +8,10 @@
     </item>
     <item android:state_enabled="true">
         <shape>
-            <solid android:color="#20BEFF"/>
+            <solid android:color="@color/colorWhite"/>
             <corners android:radius="25dp"/>
+            <stroke android:color="#e8eaed"
+                android:width="1sp"/>
         </shape>
     </item>
     <item android:state_enabled="false">

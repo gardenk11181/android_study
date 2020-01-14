@@ -79,6 +79,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        // 과제 : enable=true일 때만 리스너를 달 수 있는 방법??
         RelativeLayout_login.setOnClickListener(new View.OnClickListener() { // 조건문을 걸어주기 쉽지 않음 - 처음에만 실행되므로
             @Override
             public void onClick(View v) { // 클릭을 감지했을 때 값을 가져온다.
